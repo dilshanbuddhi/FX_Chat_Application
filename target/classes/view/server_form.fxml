@@ -4,9 +4,9 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-
 
 <AnchorPane prefHeight="400.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.contraller.serverFormContraller">
    <children>
@@ -18,5 +18,7 @@
             <Font size="35.0" />
          </font>
       </Label>
+      <!-- Add your ImageView component -->
+      <ImageView fx:id="imageView" layoutX="50.0" layoutY="320.0" fitHeight="100.0" fitWidth="100.0" />
    </children>
 </AnchorPane>
