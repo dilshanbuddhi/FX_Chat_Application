@@ -7,16 +7,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="356.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.contraller.clientFormContraller">
    <children>
       <TextArea fx:id="clTxtArea" layoutX="55.0" layoutY="81.0" prefHeight="200.0" prefWidth="246.0" />
       <TextField fx:id="cltextField" layoutX="61.0" layoutY="308.0" />
-      <Button layoutX="255.0" layoutY="308.0" mnemonicParsing="false" onAction="#sentOnAction" text="Button" />
-      <Label layoutX="69.0" layoutY="14.0" prefHeight="44.0" prefWidth="94.0" text="client">
+      <Button layoutX="255.0" layoutY="308.0" mnemonicParsing="false" onAction="#sentOnAction" text="Send Text" />
+      <Label layoutX="69.0" layoutY="14.0" prefHeight="44.0" prefWidth="94.0" text="Client">
          <font>
             <Font size="35.0" />
          </font>
       </Label>
+      <Button layoutX="255.0" layoutY="350.0" mnemonicParsing="false" onAction="#selectAndSendImage" text="Send Image" />
    </children>
 </AnchorPane>
